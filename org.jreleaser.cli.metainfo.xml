@@ -26,6 +26,9 @@
     <binary>jreleaser</binary>
   </provides>
   <releases>
+    <release version="1.0.0" date="2022-04-10">
+      <url>https://github.com/jreleaser/jreleaser/releases/tag/v1.0.0</url>
+    </release>
     <release version="1.0.0-RC2" date="2022-04-02">
       <url>https://github.com/jreleaser/jreleaser/releases/tag/v1.0.0-RC2</url>
     </release>
