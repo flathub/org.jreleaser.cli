@@ -1,3 +1,3 @@
-# Flatpak manifest for JReleaser
+# Flatpak manifest for Jreleaser
 
-This repository contains the files to create a Flatpak version of the [JReleaser](https://jreleaser.org) cli.
+This repository contains the files to create a Flatpak for [Jreleaser](https://jreleaser.org).
