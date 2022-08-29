@@ -120,3 +120,4 @@ modules:
         path: org.jreleaser.cli.metainfo.xml
       - type: file
         path: icons/256x256/jreleaser.png
+        dest-filename: icons/256x256/jreleaser.png
