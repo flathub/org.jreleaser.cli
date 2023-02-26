@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with JReleaser 1.4.0 at 2022-12-29T12:44:56.604934-06:00 -->
+<!-- Generated with JReleaser 1.5.0-SNAPSHOT at 2023-02-26T14:50:16.547059026Z -->
 <component type="console-application">
   <id>org.jreleaser.cli</id>
   <name>jreleaser</name>
@@ -23,6 +23,9 @@ may be announced in a variety of channels such as Twitter, Zulip, SDKMAN!, and m
     <binary>jreleaser</binary>
   </provides>
   <releases>
+    <release version="1.5.0" date="2023-02-26">
+      <url>https://github.com/jreleaser/jreleaser/releases/tag/v1.5.0</url>
+    </release>
     <release version="1.4.0" date="2022-12-29">
       <url>https://github.com/jreleaser/jreleaser/releases/tag/v1.4.0</url>
     </release>
@@ -84,8 +87,10 @@ may be announced in a variety of channels such as Twitter, Zulip, SDKMAN!, and m
   </screenshots>
   <content_rating type="oars-1.1" />
   <url type="homepage">https://jreleaser.org</url>
+  <url type="documentation">https://jreleaser.org/guide/latest</url>
+  <url type="license">https://spdx.org/licenses/Apache-2.0.html</url>
   <url type="bugtracker">https://github.com/jreleaser/jreleaser/issues</url>
+  <url type="vcs-browser">https://github.com/jreleaser/jreleaser</url>
   <url type="faq">https://github.com/jreleaser/jreleaser/discussions</url>
   <url type="donation">https://opencollective.com/jreleaser</url>
-  <url type="vcs-browser">https://github.com/jreleaser/jreleaser</url>
 </component>
