@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with JReleaser 1.9.0-SNAPSHOT at 2023-11-01T09:09:29.092189226Z -->
+<!-- Generated with JReleaser 1.10.0-SNAPSHOT at 2023-12-31T16:01:47.022516386Z -->
 <component type="console-application">
   <id>org.jreleaser.cli</id>
   <name>jreleaser</name>
@@ -8,8 +8,8 @@
   <project_license>Apache-2.0</project_license>
   <description>
     <p>JReleaser is a release automation tool. Its goal is to simplify creating releases and
-publishing artifacts to multiple package managers while providing customizable options.</p>
-<p>JReleaser takes inputs from popular builds tools (Ant, Maven, Gradle) such as JAR files,
+publishing artifacts to multiple package managers while providing customizable options.
+JReleaser takes inputs from popular builds tools (Ant, Maven, Gradle) such as JAR files,
 binary distributions (.zip, .tar), JLink images, or any other file that you’d like to
 publish as a Git release on popular Git services such as GitHub, GitLab, or Gitea.
 Distribution files may additionally be published to be consumed by popular package managers
@@ -23,6 +23,9 @@ may be announced in a variety of channels such as Twitter, Zulip, SDKMAN!, and m
     <binary>jreleaser</binary>
   </provides>
   <releases>
+    <release version="1.10.0" date="2023-12-31">
+      <url>https://github.com/jreleaser/jreleaser/releases/tag/v1.10.0</url>
+    </release>
     <release version="1.9.0" date="2023-11-01">
       <url>https://github.com/jreleaser/jreleaser/releases/tag/v1.9.0</url>
     </release>
@@ -92,7 +95,7 @@ may be announced in a variety of channels such as Twitter, Zulip, SDKMAN!, and m
     <release version="0.1.0" date="2021-04-10">
       <url>https://github.com/jreleaser/jreleaser/releases/tag/v0.1.0</url>
     </release>
-    <release version="0.0.0" date="2023-11-01">
+    <release version="0.0.0" date="2023-12-30">
       <url>https://github.com/jreleaser/jreleaser/releases/tag/early-access</url>
     </release>
   </releases>
