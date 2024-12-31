@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with JReleaser 1.15.0-SNAPSHOT at 2024-10-31T08:59:56.877249853Z -->
+<!-- Generated with JReleaser 1.16.0-SNAPSHOT at 2024-12-31T11:03:40.173959401Z -->
 <component type="console-application">
   <id>org.jreleaser.cli</id>
   <name>jreleaser</name>
@@ -23,6 +23,9 @@ may be announced in a variety of channels such as Twitter, Zulip, SDKMAN!, and m
     <binary>jreleaser</binary>
   </provides>
   <releases>
+    <release version="1.16.0" date="2024-12-31">
+      <url>https://github.com/jreleaser/jreleaser/releases/tag/v1.16.0</url>
+    </release>
     <release version="1.15.0" date="2024-10-31">
       <url>https://github.com/jreleaser/jreleaser/releases/tag/v1.15.0</url>
     </release>
@@ -113,7 +116,7 @@ may be announced in a variety of channels such as Twitter, Zulip, SDKMAN!, and m
     <release version="0.1.0" date="2021-04-10">
       <url>https://github.com/jreleaser/jreleaser/releases/tag/v0.1.0</url>
     </release>
-    <release version="0.0.0" date="2024-10-29">
+    <release version="0.0.0" date="2024-12-31">
       <url>https://github.com/jreleaser/jreleaser/releases/tag/early-access</url>
     </release>
   </releases>

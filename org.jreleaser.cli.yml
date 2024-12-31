@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.15.0-SNAPSHOT at 2024-10-31T08:59:56.877249853Z
+# Generated with JReleaser 1.16.0-SNAPSHOT at 2024-12-31T11:03:40.173959401Z
 app-id: org.jreleaser.cli
 runtime: org.freedesktop.Platform
 runtime-version: '21.08'
@@ -24,132 +24,132 @@ modules:
       - install -Dm644 NOTICE /app/NOTICE
       - install -Dm644 SWIDTAG/swid-tag.xml /app/SWIDTAG/swid-tag.xml
       - install -Dm644 lib/JavaEWAH-1.2.3.jar /app/lib/JavaEWAH-1.2.3.jar
-      - install -Dm644 lib/annotations-2.29.1.jar /app/lib/annotations-2.29.1.jar
-      - install -Dm644 lib/apache-client-2.29.1.jar /app/lib/apache-client-2.29.1.jar
-      - install -Dm644 lib/arns-2.29.1.jar /app/lib/arns-2.29.1.jar
+      - install -Dm644 lib/annotations-2.29.39.jar /app/lib/annotations-2.29.39.jar
+      - install -Dm644 lib/apache-client-2.29.39.jar /app/lib/apache-client-2.29.39.jar
+      - install -Dm644 lib/arns-2.29.39.jar /app/lib/arns-2.29.39.jar
       - install -Dm644 lib/asn-one-0.6.0.jar /app/lib/asn-one-0.6.0.jar
-      - install -Dm644 lib/auth-2.29.1.jar /app/lib/auth-2.29.1.jar
+      - install -Dm644 lib/auth-2.29.39.jar /app/lib/auth-2.29.39.jar
       - install -Dm644 lib/autolink-0.10.1.jar /app/lib/autolink-0.10.1.jar
-      - install -Dm644 lib/aws-core-2.29.1.jar /app/lib/aws-core-2.29.1.jar
-      - install -Dm644 lib/aws-query-protocol-2.29.1.jar /app/lib/aws-query-protocol-2.29.1.jar
-      - install -Dm644 lib/aws-xml-protocol-2.29.1.jar /app/lib/aws-xml-protocol-2.29.1.jar
-      - install -Dm644 lib/bcpg-jdk18on-1.78.1.jar /app/lib/bcpg-jdk18on-1.78.1.jar
-      - install -Dm644 lib/bcpkix-jdk18on-1.78.1.jar /app/lib/bcpkix-jdk18on-1.78.1.jar
-      - install -Dm644 lib/bcprov-jdk18on-1.78.1.jar /app/lib/bcprov-jdk18on-1.78.1.jar
-      - install -Dm644 lib/bcutil-jdk18on-1.78.1.jar /app/lib/bcutil-jdk18on-1.78.1.jar
-      - install -Dm644 lib/checksums-2.29.1.jar /app/lib/checksums-2.29.1.jar
-      - install -Dm644 lib/checksums-spi-2.29.1.jar /app/lib/checksums-spi-2.29.1.jar
+      - install -Dm644 lib/aws-core-2.29.39.jar /app/lib/aws-core-2.29.39.jar
+      - install -Dm644 lib/aws-query-protocol-2.29.39.jar /app/lib/aws-query-protocol-2.29.39.jar
+      - install -Dm644 lib/aws-xml-protocol-2.29.39.jar /app/lib/aws-xml-protocol-2.29.39.jar
+      - install -Dm644 lib/bcpg-jdk18on-1.79.jar /app/lib/bcpg-jdk18on-1.79.jar
+      - install -Dm644 lib/bcpkix-jdk18on-1.79.jar /app/lib/bcpkix-jdk18on-1.79.jar
+      - install -Dm644 lib/bcprov-jdk18on-1.79.jar /app/lib/bcprov-jdk18on-1.79.jar
+      - install -Dm644 lib/bcutil-jdk18on-1.79.jar /app/lib/bcutil-jdk18on-1.79.jar
+      - install -Dm644 lib/checksums-2.29.39.jar /app/lib/checksums-2.29.39.jar
+      - install -Dm644 lib/checksums-spi-2.29.39.jar /app/lib/checksums-spi-2.29.39.jar
       - install -Dm644 lib/classmate-1.7.0.jar /app/lib/classmate-1.7.0.jar
       - install -Dm644 lib/commonmark-0.21.0.jar /app/lib/commonmark-0.21.0.jar
       - install -Dm644 lib/commonmark-ext-autolink-0.21.0.jar /app/lib/commonmark-ext-autolink-0.21.0.jar
       - install -Dm644 lib/commons-codec-1.17.1.jar /app/lib/commons-codec-1.17.1.jar
       - install -Dm644 lib/commons-compress-1.27.1.jar /app/lib/commons-compress-1.27.1.jar
-      - install -Dm644 lib/commons-io-2.17.0.jar /app/lib/commons-io-2.17.0.jar
+      - install -Dm644 lib/commons-io-2.18.0.jar /app/lib/commons-io-2.18.0.jar
       - install -Dm644 lib/commons-jexl3-3.4.0.jar /app/lib/commons-jexl3-3.4.0.jar
       - install -Dm644 lib/commons-lang3-3.17.0.jar /app/lib/commons-lang3-3.17.0.jar
       - install -Dm644 lib/commons-net-3.11.1.jar /app/lib/commons-net-3.11.1.jar
-      - install -Dm644 lib/commons-text-1.12.0.jar /app/lib/commons-text-1.12.0.jar
+      - install -Dm644 lib/commons-text-1.13.0.jar /app/lib/commons-text-1.13.0.jar
       - install -Dm644 lib/compiler-0.9.14.jar /app/lib/compiler-0.9.14.jar
-      - install -Dm644 lib/crt-core-2.29.1.jar /app/lib/crt-core-2.29.1.jar
+      - install -Dm644 lib/crt-core-2.29.39.jar /app/lib/crt-core-2.29.39.jar
       - install -Dm644 lib/eddsa-0.3.0.jar /app/lib/eddsa-0.3.0.jar
-      - install -Dm644 lib/endpoints-spi-2.29.1.jar /app/lib/endpoints-spi-2.29.1.jar
+      - install -Dm644 lib/endpoints-spi-2.29.39.jar /app/lib/endpoints-spi-2.29.39.jar
       - install -Dm644 lib/eventstream-1.0.1.jar /app/lib/eventstream-1.0.1.jar
       - install -Dm644 lib/failsafe-3.3.2.jar /app/lib/failsafe-3.3.2.jar
       - install -Dm644 lib/feign-core-13.5.jar /app/lib/feign-core-13.5.jar
       - install -Dm644 lib/feign-form-3.8.0.jar /app/lib/feign-form-3.8.0.jar
       - install -Dm644 lib/feign-httpclient-13.5.jar /app/lib/feign-httpclient-13.5.jar
       - install -Dm644 lib/feign-jackson-13.5.jar /app/lib/feign-jackson-13.5.jar
-      - install -Dm644 lib/http-auth-2.29.1.jar /app/lib/http-auth-2.29.1.jar
-      - install -Dm644 lib/http-auth-aws-2.29.1.jar /app/lib/http-auth-aws-2.29.1.jar
-      - install -Dm644 lib/http-auth-aws-eventstream-2.29.1.jar /app/lib/http-auth-aws-eventstream-2.29.1.jar
-      - install -Dm644 lib/http-auth-spi-2.29.1.jar /app/lib/http-auth-spi-2.29.1.jar
-      - install -Dm644 lib/http-client-spi-2.29.1.jar /app/lib/http-client-spi-2.29.1.jar
+      - install -Dm644 lib/http-auth-2.29.39.jar /app/lib/http-auth-2.29.39.jar
+      - install -Dm644 lib/http-auth-aws-2.29.39.jar /app/lib/http-auth-aws-2.29.39.jar
+      - install -Dm644 lib/http-auth-aws-eventstream-2.29.39.jar /app/lib/http-auth-aws-eventstream-2.29.39.jar
+      - install -Dm644 lib/http-auth-spi-2.29.39.jar /app/lib/http-auth-spi-2.29.39.jar
+      - install -Dm644 lib/http-client-spi-2.29.39.jar /app/lib/http-client-spi-2.29.39.jar
       - install -Dm644 lib/httpclient-4.5.14.jar /app/lib/httpclient-4.5.14.jar
       - install -Dm644 lib/httpcore-4.4.16.jar /app/lib/httpcore-4.4.16.jar
-      - install -Dm644 lib/identity-spi-2.29.1.jar /app/lib/identity-spi-2.29.1.jar
-      - install -Dm644 lib/jackson-annotations-2.18.0.jar /app/lib/jackson-annotations-2.18.0.jar
-      - install -Dm644 lib/jackson-core-2.18.0.jar /app/lib/jackson-core-2.18.0.jar
-      - install -Dm644 lib/jackson-databind-2.18.0.jar /app/lib/jackson-databind-2.18.0.jar
-      - install -Dm644 lib/jackson-dataformat-toml-2.18.0.jar /app/lib/jackson-dataformat-toml-2.18.0.jar
-      - install -Dm644 lib/jackson-dataformat-xml-2.18.0.jar /app/lib/jackson-dataformat-xml-2.18.0.jar
-      - install -Dm644 lib/jackson-dataformat-yaml-2.18.0.jar /app/lib/jackson-dataformat-yaml-2.18.0.jar
-      - install -Dm644 lib/jackson-datatype-jsr310-2.18.0.jar /app/lib/jackson-datatype-jsr310-2.18.0.jar
+      - install -Dm644 lib/identity-spi-2.29.39.jar /app/lib/identity-spi-2.29.39.jar
+      - install -Dm644 lib/jackson-annotations-2.18.2.jar /app/lib/jackson-annotations-2.18.2.jar
+      - install -Dm644 lib/jackson-core-2.18.2.jar /app/lib/jackson-core-2.18.2.jar
+      - install -Dm644 lib/jackson-databind-2.18.2.jar /app/lib/jackson-databind-2.18.2.jar
+      - install -Dm644 lib/jackson-dataformat-toml-2.18.2.jar /app/lib/jackson-dataformat-toml-2.18.2.jar
+      - install -Dm644 lib/jackson-dataformat-xml-2.18.2.jar /app/lib/jackson-dataformat-xml-2.18.2.jar
+      - install -Dm644 lib/jackson-dataformat-yaml-2.18.2.jar /app/lib/jackson-dataformat-yaml-2.18.2.jar
+      - install -Dm644 lib/jackson-datatype-jsr310-2.18.2.jar /app/lib/jackson-datatype-jsr310-2.18.2.jar
       - install -Dm644 lib/jakarta.activation-2.0.1.jar /app/lib/jakarta.activation-2.0.1.jar
       - install -Dm644 lib/jakarta.mail-2.0.1.jar /app/lib/jakarta.mail-2.0.1.jar
       - install -Dm644 lib/jcl-over-slf4j-2.0.16.jar /app/lib/jcl-over-slf4j-2.0.16.jar
-      - install -Dm644 lib/jreleaser-1.15.0.jar /app/lib/jreleaser-1.15.0.jar
-      - install -Dm644 lib/jreleaser-artifactory-java-sdk-1.15.0.jar /app/lib/jreleaser-artifactory-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-azure-java-sdk-1.15.0.jar /app/lib/jreleaser-azure-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-bluesky-java-sdk-1.15.0.jar /app/lib/jreleaser-bluesky-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-codeberg-java-sdk-1.15.0.jar /app/lib/jreleaser-codeberg-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-command-java-sdk-1.15.0.jar /app/lib/jreleaser-command-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-config-json-1.15.0.jar /app/lib/jreleaser-config-json-1.15.0.jar
-      - install -Dm644 lib/jreleaser-config-toml-1.15.0.jar /app/lib/jreleaser-config-toml-1.15.0.jar
-      - install -Dm644 lib/jreleaser-config-yaml-1.15.0.jar /app/lib/jreleaser-config-yaml-1.15.0.jar
-      - install -Dm644 lib/jreleaser-discord-java-sdk-1.15.0.jar /app/lib/jreleaser-discord-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-discourse-java-sdk-1.15.0.jar /app/lib/jreleaser-discourse-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-engine-1.15.0.jar /app/lib/jreleaser-engine-1.15.0.jar
-      - install -Dm644 lib/jreleaser-ftp-java-sdk-1.15.0.jar /app/lib/jreleaser-ftp-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-genericgit-java-sdk-1.15.0.jar /app/lib/jreleaser-genericgit-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-git-java-sdk-1.15.0.jar /app/lib/jreleaser-git-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-gitea-java-sdk-1.15.0.jar /app/lib/jreleaser-gitea-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-github-java-sdk-1.15.0.jar /app/lib/jreleaser-github-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-gitlab-java-sdk-1.15.0.jar /app/lib/jreleaser-gitlab-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-gitter-java-sdk-1.15.0.jar /app/lib/jreleaser-gitter-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-google-chat-java-sdk-1.15.0.jar /app/lib/jreleaser-google-chat-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-http-java-sdk-1.15.0.jar /app/lib/jreleaser-http-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-java-sdk-commons-1.15.0.jar /app/lib/jreleaser-java-sdk-commons-1.15.0.jar
-      - install -Dm644 lib/jreleaser-linkedin-java-sdk-1.15.0.jar /app/lib/jreleaser-linkedin-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-logger-api-1.15.0.jar /app/lib/jreleaser-logger-api-1.15.0.jar
-      - install -Dm644 lib/jreleaser-mastodon-java-sdk-1.15.0.jar /app/lib/jreleaser-mastodon-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-mattermost-java-sdk-1.15.0.jar /app/lib/jreleaser-mattermost-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-mavencentral-java-sdk-1.15.0.jar /app/lib/jreleaser-mavencentral-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-model-api-1.15.0.jar /app/lib/jreleaser-model-api-1.15.0.jar
-      - install -Dm644 lib/jreleaser-model-impl-1.15.0.jar /app/lib/jreleaser-model-impl-1.15.0.jar
-      - install -Dm644 lib/jreleaser-nexus2-java-sdk-1.15.0.jar /app/lib/jreleaser-nexus2-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-opencollective-java-sdk-1.15.0.jar /app/lib/jreleaser-opencollective-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-resource-bundle-1.15.0.jar /app/lib/jreleaser-resource-bundle-1.15.0.jar
-      - install -Dm644 lib/jreleaser-s3-java-sdk-1.15.0.jar /app/lib/jreleaser-s3-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-sdkman-java-sdk-1.15.0.jar /app/lib/jreleaser-sdkman-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-signing-java-sdk-1.15.0.jar /app/lib/jreleaser-signing-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-slack-java-sdk-1.15.0.jar /app/lib/jreleaser-slack-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-smtp-java-sdk-1.15.0.jar /app/lib/jreleaser-smtp-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-ssh-java-sdk-1.15.0.jar /app/lib/jreleaser-ssh-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-teams-java-sdk-1.15.0.jar /app/lib/jreleaser-teams-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-telegram-java-sdk-1.15.0.jar /app/lib/jreleaser-telegram-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-templates-1.15.0.jar /app/lib/jreleaser-templates-1.15.0.jar
-      - install -Dm644 lib/jreleaser-tool-java-sdk-1.15.0.jar /app/lib/jreleaser-tool-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-twitter-java-sdk-1.15.0.jar /app/lib/jreleaser-twitter-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-utils-1.15.0.jar /app/lib/jreleaser-utils-1.15.0.jar
-      - install -Dm644 lib/jreleaser-webhooks-java-sdk-1.15.0.jar /app/lib/jreleaser-webhooks-java-sdk-1.15.0.jar
-      - install -Dm644 lib/jreleaser-zulip-java-sdk-1.15.0.jar /app/lib/jreleaser-zulip-java-sdk-1.15.0.jar
-      - install -Dm644 lib/json-utils-2.29.1.jar /app/lib/json-utils-2.29.1.jar
+      - install -Dm644 lib/jreleaser-1.16.0.jar /app/lib/jreleaser-1.16.0.jar
+      - install -Dm644 lib/jreleaser-artifactory-java-sdk-1.16.0.jar /app/lib/jreleaser-artifactory-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-azure-java-sdk-1.16.0.jar /app/lib/jreleaser-azure-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-bluesky-java-sdk-1.16.0.jar /app/lib/jreleaser-bluesky-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-codeberg-java-sdk-1.16.0.jar /app/lib/jreleaser-codeberg-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-command-java-sdk-1.16.0.jar /app/lib/jreleaser-command-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-config-json-1.16.0.jar /app/lib/jreleaser-config-json-1.16.0.jar
+      - install -Dm644 lib/jreleaser-config-toml-1.16.0.jar /app/lib/jreleaser-config-toml-1.16.0.jar
+      - install -Dm644 lib/jreleaser-config-yaml-1.16.0.jar /app/lib/jreleaser-config-yaml-1.16.0.jar
+      - install -Dm644 lib/jreleaser-discord-java-sdk-1.16.0.jar /app/lib/jreleaser-discord-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-discourse-java-sdk-1.16.0.jar /app/lib/jreleaser-discourse-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-engine-1.16.0.jar /app/lib/jreleaser-engine-1.16.0.jar
+      - install -Dm644 lib/jreleaser-ftp-java-sdk-1.16.0.jar /app/lib/jreleaser-ftp-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-genericgit-java-sdk-1.16.0.jar /app/lib/jreleaser-genericgit-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-git-java-sdk-1.16.0.jar /app/lib/jreleaser-git-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-gitea-java-sdk-1.16.0.jar /app/lib/jreleaser-gitea-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-github-java-sdk-1.16.0.jar /app/lib/jreleaser-github-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-gitlab-java-sdk-1.16.0.jar /app/lib/jreleaser-gitlab-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-gitter-java-sdk-1.16.0.jar /app/lib/jreleaser-gitter-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-google-chat-java-sdk-1.16.0.jar /app/lib/jreleaser-google-chat-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-http-java-sdk-1.16.0.jar /app/lib/jreleaser-http-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-java-sdk-commons-1.16.0.jar /app/lib/jreleaser-java-sdk-commons-1.16.0.jar
+      - install -Dm644 lib/jreleaser-linkedin-java-sdk-1.16.0.jar /app/lib/jreleaser-linkedin-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-logger-api-1.16.0.jar /app/lib/jreleaser-logger-api-1.16.0.jar
+      - install -Dm644 lib/jreleaser-mastodon-java-sdk-1.16.0.jar /app/lib/jreleaser-mastodon-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-mattermost-java-sdk-1.16.0.jar /app/lib/jreleaser-mattermost-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-mavencentral-java-sdk-1.16.0.jar /app/lib/jreleaser-mavencentral-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-model-api-1.16.0.jar /app/lib/jreleaser-model-api-1.16.0.jar
+      - install -Dm644 lib/jreleaser-model-impl-1.16.0.jar /app/lib/jreleaser-model-impl-1.16.0.jar
+      - install -Dm644 lib/jreleaser-nexus2-java-sdk-1.16.0.jar /app/lib/jreleaser-nexus2-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-opencollective-java-sdk-1.16.0.jar /app/lib/jreleaser-opencollective-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-resource-bundle-1.16.0.jar /app/lib/jreleaser-resource-bundle-1.16.0.jar
+      - install -Dm644 lib/jreleaser-s3-java-sdk-1.16.0.jar /app/lib/jreleaser-s3-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-sdkman-java-sdk-1.16.0.jar /app/lib/jreleaser-sdkman-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-signing-java-sdk-1.16.0.jar /app/lib/jreleaser-signing-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-slack-java-sdk-1.16.0.jar /app/lib/jreleaser-slack-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-smtp-java-sdk-1.16.0.jar /app/lib/jreleaser-smtp-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-ssh-java-sdk-1.16.0.jar /app/lib/jreleaser-ssh-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-teams-java-sdk-1.16.0.jar /app/lib/jreleaser-teams-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-telegram-java-sdk-1.16.0.jar /app/lib/jreleaser-telegram-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-templates-1.16.0.jar /app/lib/jreleaser-templates-1.16.0.jar
+      - install -Dm644 lib/jreleaser-tool-java-sdk-1.16.0.jar /app/lib/jreleaser-tool-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-twitter-java-sdk-1.16.0.jar /app/lib/jreleaser-twitter-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-utils-1.16.0.jar /app/lib/jreleaser-utils-1.16.0.jar
+      - install -Dm644 lib/jreleaser-webhooks-java-sdk-1.16.0.jar /app/lib/jreleaser-webhooks-java-sdk-1.16.0.jar
+      - install -Dm644 lib/jreleaser-zulip-java-sdk-1.16.0.jar /app/lib/jreleaser-zulip-java-sdk-1.16.0.jar
+      - install -Dm644 lib/json-utils-2.29.39.jar /app/lib/json-utils-2.29.39.jar
       - install -Dm644 lib/jsonschema-generator-4.36.0.jar /app/lib/jsonschema-generator-4.36.0.jar
       - install -Dm644 lib/jsonschema-module-jackson-4.36.0.jar /app/lib/jsonschema-module-jackson-4.36.0.jar
-      - install -Dm644 lib/metrics-spi-2.29.1.jar /app/lib/metrics-spi-2.29.1.jar
-      - install -Dm644 lib/org.eclipse.jgit-5.13.0.202109080827-r.jar /app/lib/org.eclipse.jgit-5.13.0.202109080827-r.jar
+      - install -Dm644 lib/metrics-spi-2.29.39.jar /app/lib/metrics-spi-2.29.39.jar
+      - install -Dm644 lib/org.eclipse.jgit-5.13.3.202401111512-r.jar /app/lib/org.eclipse.jgit-5.13.3.202401111512-r.jar
       - install -Dm644 lib/picocli-4.7.6.jar /app/lib/picocli-4.7.6.jar
-      - install -Dm644 lib/profiles-2.29.1.jar /app/lib/profiles-2.29.1.jar
-      - install -Dm644 lib/protocol-core-2.29.1.jar /app/lib/protocol-core-2.29.1.jar
+      - install -Dm644 lib/profiles-2.29.39.jar /app/lib/profiles-2.29.39.jar
+      - install -Dm644 lib/protocol-core-2.29.39.jar /app/lib/protocol-core-2.29.39.jar
       - install -Dm644 lib/reactive-streams-1.0.4.jar /app/lib/reactive-streams-1.0.4.jar
-      - install -Dm644 lib/regions-2.29.1.jar /app/lib/regions-2.29.1.jar
-      - install -Dm644 lib/retries-2.29.1.jar /app/lib/retries-2.29.1.jar
-      - install -Dm644 lib/retries-spi-2.29.1.jar /app/lib/retries-spi-2.29.1.jar
-      - install -Dm644 lib/s3-2.29.1.jar /app/lib/s3-2.29.1.jar
-      - install -Dm644 lib/sdk-core-2.29.1.jar /app/lib/sdk-core-2.29.1.jar
+      - install -Dm644 lib/regions-2.29.39.jar /app/lib/regions-2.29.39.jar
+      - install -Dm644 lib/retries-2.29.39.jar /app/lib/retries-2.29.39.jar
+      - install -Dm644 lib/retries-spi-2.29.39.jar /app/lib/retries-spi-2.29.39.jar
+      - install -Dm644 lib/s3-2.29.39.jar /app/lib/s3-2.29.39.jar
+      - install -Dm644 lib/sdk-core-2.29.39.jar /app/lib/sdk-core-2.29.39.jar
       - install -Dm644 lib/slf4j-api-2.0.16.jar /app/lib/slf4j-api-2.0.16.jar
       - install -Dm644 lib/slf4j-simple-2.0.16.jar /app/lib/slf4j-simple-2.0.16.jar
       - install -Dm644 lib/snakeyaml-2.3.jar /app/lib/snakeyaml-2.3.jar
       - install -Dm644 lib/sshj-0.39.0.jar /app/lib/sshj-0.39.0.jar
       - install -Dm644 lib/stax2-api-4.2.2.jar /app/lib/stax2-api-4.2.2.jar
-      - install -Dm644 lib/third-party-jackson-core-2.29.1.jar /app/lib/third-party-jackson-core-2.29.1.jar
+      - install -Dm644 lib/third-party-jackson-core-2.29.39.jar /app/lib/third-party-jackson-core-2.29.39.jar
       - install -Dm644 lib/tika-core-2.9.2.jar /app/lib/tika-core-2.9.2.jar
       - install -Dm644 lib/twitter4j-core-4.1.2.jar /app/lib/twitter4j-core-4.1.2.jar
-      - install -Dm644 lib/utils-2.29.1.jar /app/lib/utils-2.29.1.jar
+      - install -Dm644 lib/utils-2.29.39.jar /app/lib/utils-2.29.39.jar
       - install -Dm644 lib/woodstox-core-7.1.0.jar /app/lib/woodstox-core-7.1.0.jar
       - install -Dm644 lib/xz-1.10.jar /app/lib/xz-1.10.jar
       - install -Dm644 lib/yamllint-1.6.1.jar /app/lib/yamllint-1.6.1.jar
-      - install -Dm644 lib/zstd-jni-1.5.6-7.jar /app/lib/zstd-jni-1.5.6-7.jar
+      - install -Dm644 lib/zstd-jni-1.5.6-8.jar /app/lib/zstd-jni-1.5.6-8.jar
       - install -Dm644 licenses/LICENSE-BSD-2-Clause /app/licenses/LICENSE-BSD-2-Clause
       - install -Dm644 licenses/LICENSE-BSD-2-Clause-FreeBSD /app/licenses/LICENSE-BSD-2-Clause-FreeBSD
       - install -Dm644 licenses/LICENSE-Bouncy-Castle /app/licenses/LICENSE-Bouncy-Castle
@@ -161,8 +161,8 @@ modules:
       - install -Dm644 icons/256x256/jreleaser.png /app/share/icons/hicolor/256x256/apps/org.jreleaser.cli.png
     sources:
       - type: archive
-        url: https://github.com/jreleaser/jreleaser/releases/download/v1.15.0/jreleaser-1.15.0.zip
-        sha256: fd3d5b424190956313da111c144bb4788fc647907722e4a662c1e6654c2ac384
+        url: https://github.com/jreleaser/jreleaser/releases/download/v1.16.0/jreleaser-1.16.0.zip
+        sha256: 7216a8b70616cf0554326db9bf704832f4fe67d4e370b2111629e50a6f9a04da
       - type: file
         path: org.jreleaser.cli.metainfo.xml
       - type: file
